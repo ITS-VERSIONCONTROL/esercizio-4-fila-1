@@ -1,0 +1,60 @@
+Per questo esercizio utilizzeremo i seguenti branch:
+	develop: branch di sviluppo da cui staccare le nuove features
+	main: branch di rilascio da cui staccare i nuovi rilasci
+
+
+### STEP 1 ###
+
+- scegliere una feature da implementare
+
+- staccare un feature branch da develop
+	partendo dal branch di develop, creare un feature branch, spostarsi nel nuovo branch
+	(git branch, git switch)
+
+- nel feature branch implementare la feature e fare la push del feature branch su origin
+	controllare che il proprio feature branch sia consistente e funzioni correttamente
+	(git push -u origin)
+
+- riallineare il merge di develop
+	spostarsi sul branch di develop, e riallinearsi con origin (git fetch, git pull)
+	riallineare il feature branch (git merge)
+	risolvere eventuali conflitti rispettando l'ordine del menu
+	verificare che tutto funzioni correttamente
+	effettuare la commit delle modifiche effettuate
+	effettuare il push di develop su origin (git push)
+
+Features:
+
+	**** attenzione: la voce menu di esempio va rimossa ***
+
+001 - nel menu principale aggiungere la voce '1. anagrafica clienti' che punta alla pagina anagrafica-clienti.html, creare il nuovo file html stilato con un titolo congruo e un paragrafo di testo 'Lorem ipsun..' e un'ancora 'Back' che punta a index.html
+
+002 - nel menu principale aggiungere la voce '2. anagrafica fornitori' che punta alla pagina anagrafica-fornitori.html, creare il nuovo file html stilato con un titolo congruo e un paragrafo di testo 'Lorem ipsun..' e un'ancora 'Back' che punta a index.html
+
+003 - nel menu principale aggiungere la voce '3. ordini vendita' che punta alla pagina ordini-vendita.html, creare il nuovo file html stilato con un titolo congruo e un paragrafo di testo 'Lorem ipsun..' e un'ancora 'Back' che punta a index.html
+
+004 - nel menu principale aggiungere la voce '4. ordini acquisto' che punta alla pagina ordini-acquisto.html, creare il nuovo file html stilato con un titolo congruo e un paragrafo di testo 'Lorem ipsun..' e un'ancora 'Back' che punta a index.html
+
+005 - nel menu principale aggiungere la voce '5. fatture' che punta alla pagina fatture.html, creare il nuovo file html stilato con un titolo congruo e un paragrafo di testo 'Lorem ipsun..' e un'ancora 'Back' che punta a index.html
+
+### STEP 2 ###
+
+Task:
+
+006 - rilasciare una release
+	allineare main al branch di develop
+	staccare il branch release/1.0
+	effettuare la push di main su origin
+	effettuare la push di release/1.0 su origin
+
+007 - modificare la dimensione del font di h1 a 3.5, impostare la dimensione di h2 a 1.5
+
+008 - inserire un colore di background (#F8F8FF)
+
+009 - impostare il colore di background della lista (#D3D3D3)
+
+010 - modificare il testo della voce "Menu" in "Menu principale"
+
+### STEP 3 ###
+
+Rilascio della versione 2.0
